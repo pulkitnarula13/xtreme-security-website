@@ -1411,6 +1411,8 @@ blockquote {
 }
 
 .section {
+  color: var(--primary);
+  background-color: rgba(0, 0, 0, 0);
   padding-top: 80px;
   padding-bottom: 40px;
   position: relative;
@@ -2488,7 +2490,7 @@ blockquote {
 }
 
 .section-title-wrapper.landing-style {
-  max-width: 640px;
+  max-width: 800px;
 }
 
 .section-subtitle {
@@ -2769,6 +2771,10 @@ blockquote {
 
 .section-title {
   margin-top: 0;
+}
+
+.section-title.text-white {
+  font-size: 32px;
 }
 
 .accordion-toggle {
@@ -6724,14 +6730,16 @@ blockquote {
 }
 
 .list-item {
-  color: var(--black);
+  color: var(--primary-light);
   object-fit: fill;
+  background-color: rgba(0, 0, 0, 0);
   list-style-type: none;
 }
 
 .text-span-2 {
   color: var(--primary);
   text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  background-color: #f8d316;
   font-weight: 500;
 }
 
